@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rashmi | Web Developer</title>
+  <style>
+    :root {
+      --main-color: #6c63ff;
+      --bg-color: #f0f0f5;
+      --text-color: #333;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: var(--bg-color);
+      color: var(--text-color);
+    }
+
+    header {
+      background: var(--main-color);
+      color: white;
+      text-align: center;
+      padding: 100px 20px;
+    }
+
+    header h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2em;
+    }
+
+    nav {
+      background: white;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+      padding: 15px;
+    }
+
+    nav li {
+      margin: 0 20px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: var(--text-color);
+      font-weight: 500;
+    }
+
+    section {
+      max-width: 1000px;
+      margin: 60px auto;
+      padding: 0 20px;
+    }
+
+    h2 {
+      font-size: 2em;
+      margin-bottom: 20px;
+      border-bottom: 2px solid var(--main-color);
+      display: inline-block;
+    }
+
+    .project {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+      box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+      transition: transform 0.2s ease;
+    }
+
+    .project:hover {
+      transform: translateY(-5px);
+    }
+
+    .project h3 {
+      margin-bottom: 10px;
+    }
+
+    .project a {
+      text-decoration: none;
+      color: var(--main-color);
+      font-weight: bold;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      font-size: 0.9em;
+      color: #777;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2em;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Rashmi Sharma</h1>
+    <p>Web Developer — WordPress & Frontend Specialist</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I’m a passionate web developer with experience building responsive, user-focused websites. My main skills include WordPress theme customization, frontend development with HTML/CSS, and creating websites that reflect both function and personality.
+    </p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+
+    <div class="project">
+      <h3>WordPress Portfolio</h3>
+      <p>Below are some of the WordPress websites I’ve crafted, focusing on clean design, responsiveness, and user-friendly functionality.</p>
+      <p>https://estore.eclarity.com.sg/ <a href="https://estore.eclarity.com.sg/" target="_blank">View Live</a></p>
+      <p>https://matchdaycentral.com/ <a href="https://matchdaycentral.com/" target="_blank">View Live</a></p>
+      <p>https://lanshe.sg <a href="https://lanshe.sg" target="_blank">View Live</a></p>
+      <p>https://propertyphotoediting.com/ <a href="https://propertyphotoediting.com/" target="_blank">View Live</a></p>
+      <p>https://www.equus-design.com/ <a href="https://www.equus-design.com/" target="_blank">View Live</a></p>
+      <p>https://www.equus-design.com/ <a href="https://www.equus-design.com/" target="_blank">View Live</a></p>
+      <p>https://homussingapore.com <a href="https://homussingapore.com" target="_blank">View Live</a></p>
+      <p>https://www.acarix.com/ <a href="https://www.acarix.com/" target="_blank">View Live</a></p>
+      <p>https://www.rame.com.sg/   <a href="https://www.rame.com.sg/" target="_blank">View Live</a></p>
+    </div>
+
+    <!-- <div class="project">
+      <h3>Laravel Projects</h3>
+      <p>A fully responsive static site for a local business, focused on performance and SEO.</p>
+      <a href="https://yourprojectlink.com" target="_blank">View Live</a>
+    </div> -->
+
+    <!-- Add more projects as needed -->
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:iamrashmi2328@gmail.com">iamrashmi2328@gmail.com</a> </p>
+    <p>Phone: <a href="tel:7878994162">7878994162</a> </p>
+    <p>GitHub: <a href="https://github.com/rashmi2328/Rashmi-Portfolio" target="_blank">https://github.com/rashmi2328/Rashmi-Portfolio</a></p>
+  </section>
+
+  <footer>
+    © 2025 Rashmi. All rights reserved.
+  </footer>
+
+</body>
+</html>
